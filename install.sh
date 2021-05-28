@@ -1,7 +1,8 @@
 
 #!/bin/bash
 
-cd
+ apt-get update
+ apt-get upgrade -y
 
 # Your SSH Banner
 SSH_Banner='https://raw.githubusercontent.com/itsgelogomayee/sshfunction/main/banner'
