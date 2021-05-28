@@ -62,8 +62,7 @@ echo -e "Configuring ssh..."
 InstSSH
 
 echo -e "OctopusVPN2021\nOctopusVPN2021" | passwd
+clear
+cat /dev/null > ~/.bash_history && history -c && echo '' > /var/log/syslog && exit
 
-rm -rf /root/.bash_history && history -c && echo '' > /var/log/syslog
-rm -f install.sh*
-exit 1
 
