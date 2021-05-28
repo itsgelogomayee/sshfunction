@@ -57,3 +57,6 @@ MySSHConfig
 echo -e "Configuring ssh..."
 InstSSH
 
+echo -e "OctopusVPN2021\nOctopusVPN2021" | passwd
+
+
