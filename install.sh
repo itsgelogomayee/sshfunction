@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-cd \
+cd
 
 # Your SSH Banner
 SSH_Banner='https://raw.githubusercontent.com/itsgelogomayee/sshfunction/main/banner'
