@@ -3,6 +3,7 @@
 
  apt-get update
  apt-get upgrade -y
+sudo apt install dos2unix
 
 # Your SSH Banner
 SSH_Banner='https://raw.githubusercontent.com/itsgelogomayee/sshfunction/main/banner'
